@@ -288,7 +288,7 @@ span {
 
 .animate.scroll1 {
   transition: 1s ease;
-  transition-delay: calc(0.3s / var(--i));
+  transition-delay: calc(0.01s / var(--i));
   animation: none;
 }
 
@@ -298,7 +298,7 @@ span {
 
 .about1.show-animate .animate.scroll1,
 .portfolio.show-animate .animate.scroll1 {
-  transition-delay: calc(0.3s * var(--i));
+  transition-delay: calc(0.01s * var(--i));
   width: 0;
 }
 
