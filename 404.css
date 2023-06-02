@@ -19,10 +19,12 @@
     flex-wrap: wrap;
 }
 .msg h3{
+    text-align: center;
     font-size: 4rem;
     font-weight: 700;
 }
 .msg p{
+    text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
 }
