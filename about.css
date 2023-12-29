@@ -274,7 +274,7 @@ span {
   padding: 1rem;
 }
 
-/* ==================== Start Navbar Text Animation Design ==================== */
+/* ==================== Start Navbar Text Animation Design ====================
 
 .animate {
   position: absolute;
@@ -302,7 +302,7 @@ span {
   width: 0;
 }
 
-/* ==================== Start Responsive Design ==================== */
+==================== Start Responsive Design ==================== */
 
 @media (max-width: 1200px) {
   html {
