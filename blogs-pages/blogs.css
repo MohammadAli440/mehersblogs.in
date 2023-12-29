@@ -341,7 +341,7 @@ span {
     padding: 14px 0;
   }
   .post-container {
-    margin: 0 auto;
+    margin: 1rem auto;
     width: 95%;
   }
 
@@ -420,7 +420,7 @@ span {
   }
 
   .post-box{
-    padding: 10px;
+    padding: 15px;
   }
 
   .header-title{
