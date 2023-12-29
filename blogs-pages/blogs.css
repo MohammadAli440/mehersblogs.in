@@ -62,7 +62,7 @@ section {
 /* ==================== Start Header Design ==================== */
 
 .header {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -187,7 +187,7 @@ span {
 }
 
 .post-box {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
   padding: 15px;
   border-radius: 0.5rem;
@@ -266,7 +266,7 @@ span {
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: var(--bg-color);
+  background: var(--second-bg-color);
 }
 
 .footer-text,
