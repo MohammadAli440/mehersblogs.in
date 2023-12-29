@@ -122,7 +122,7 @@ span {
 .home {
   width: 100%;
   min-height: 440px;
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   display: grid;
   justify-content: center;
   align-items: center;
