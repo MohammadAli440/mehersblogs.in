@@ -322,7 +322,7 @@ span {
   }
 
   .about-column1 .about-box1 {
-    width: 60rem;
+    width: 55rem;
   }
 
   .portfolio-content {
@@ -334,7 +334,7 @@ span {
 
 @media (max-width: 768px) {
   .about-column1 .about-box1 {
-    width: 55rem;
+    width: 45rem;
   }
 
   .portfolio-content {
@@ -349,7 +349,7 @@ span {
     font-size: 50%;
   }
   .about-column1 .about-box1 {
-    width: 50rem;
+    width: 40rem;
   }
 
   .portfolio-content {
@@ -361,7 +361,7 @@ span {
 
 @media (max-width: 462px) {
   .about-column1 .about-box1 {
-    width: 45rem;
+    width: 35rem;
   }
 
   .portfolio-content {
@@ -377,7 +377,7 @@ span {
 
 @media (max-width: 371px) {
   .about-column1 .about-box1 {
-    width: 35rem;
+    width: 30rem;
   }
 
   .portfolio-content {
