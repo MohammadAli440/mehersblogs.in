@@ -221,6 +221,7 @@ span {
 
 .portfolio {
   position: relative;
+  background: var(--bg-color);
 }
 
 .portfolio h2 {
