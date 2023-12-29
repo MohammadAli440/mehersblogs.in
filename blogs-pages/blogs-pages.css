@@ -23,11 +23,11 @@
 /* ==================== Start Color Root ==================== */
 
 :root {
-  --bg-color: #e6e6e6;
-  --second-bg-color: #d1d1d1;
-  --text-color: #000;
   --second-color: #fff;
-  --main-color: #062936;
+   --text-color: #000;
+  --second-bg-color: #f2f2f2;
+  --bg-color: #fff;
+  --main-color: #F08080;
 }
 
 /* ==================== End Color Root ==================== */
@@ -62,7 +62,7 @@ section {
 /* ==================== Start Header Design ==================== */
 
 .header {
-  background: var(--bg-color);
+  background: var(--second-bg-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -119,7 +119,7 @@ span {
 .post-header{
     width: 100%;
     height: 500px;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
 }
 
 .post-container{
@@ -228,7 +228,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
   }
   
   .footer-text,
