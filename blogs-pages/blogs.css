@@ -23,11 +23,11 @@
 /* ==================== Start Color Root ==================== */
 
 :root {
-  --bg-color: #e6e6e6;
-  --second-bg-color: #d1d1d1;
-  --text-color: #000;
   --second-color: #fff;
-  --main-color: #062936;
+   --text-color: #000;
+  --second-bg-color: #f2f2f2;
+  --bg-color: #fff;
+  --main-color: #F08080;
 }
 
 /* ==================== End Color Root ==================== */
