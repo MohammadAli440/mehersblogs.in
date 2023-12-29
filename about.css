@@ -322,7 +322,7 @@ span {
   }
 
   .about-column1 .about-box1 {
-    width: 65rem;
+    width: 60rem;
   }
 
   .portfolio-content {
@@ -334,7 +334,7 @@ span {
 
 @media (max-width: 768px) {
   .about-column1 .about-box1 {
-    width: 60rem;
+    width: 55rem;
   }
 
   .portfolio-content {
@@ -349,7 +349,7 @@ span {
     font-size: 50%;
   }
   .about-column1 .about-box1 {
-    width: 55rem;
+    width: 50rem;
   }
 
   .portfolio-content {
