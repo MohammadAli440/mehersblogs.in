@@ -199,7 +199,7 @@ section {
   font-weight: 600;
   letter-spacing: 0.1rem;
   color: var(--bg-color);
-  box-shadow: 1rem 1rem var(--main-color);
+  box-shadow: .5rem .5rem var(--main-color);
   z-index: 1;
   overflow: hidden;
   transition: 0.45s;
