@@ -296,8 +296,9 @@ section {
   width: 45rem;
   margin-top: 10rem;
   margin-left: 5rem;
-  filter: brightness(0.3);
-  /*border-radius: 50%; 
+  border-radius: 50%;
+  
+  /* filter: brightness(0.3);
   border-top: 1rem solid var(--bg-color);
   border-bottom: 1rem solid var(--bg-color);
   border-left: 1rem solid var(--main-color);
