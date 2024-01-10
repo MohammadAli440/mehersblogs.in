@@ -208,6 +208,7 @@ section {
 
 .btn-box .btn:hover {
   color: var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 .btn-box .btn:nth-child(2) {
@@ -217,15 +218,15 @@ section {
 
 .btn-box .btn:nth-child(2):hover {
   color: var(--bg-color);
-  box-shadow: none;
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 .btn-box .btn:nth-child(1) {
-  box-shadow: none;
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 .btn-box .btn:nth-child(1):hover {
-  box-shadow: .4rem .4rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 .btn-box .btn:nth-child(2)::before {
@@ -391,7 +392,7 @@ span {
 }
 
 .btn-box .btn:hover {
-  box-shadow: .4rem .4rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 
@@ -454,7 +455,7 @@ span {
   position: relative;
   padding: 1.5rem;
   border: 0.2rem solid var(--main-color);
-  box-shadow: .4rem .4rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
   border-radius: 0.6rem;
   margin-bottom: 2rem;
   overflow: hidden;
@@ -535,7 +536,7 @@ span {
 .skills-box .skills-content {
   position: relative;
   border: 0.2rem solid var(--main-color);
-  box-shadow: .4rem .4rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);;
   border-radius: 0.6rem;
   padding: 0.5rem 1.5rem;
   z-index: 1;
@@ -669,7 +670,7 @@ span {
 
 
 .btn-box .btn:hover {
-  box-shadow: .4rem .4rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 .post__title a {
@@ -771,7 +772,7 @@ p.post__body {
   color: var(--text-color);
   background: transparent;
   border: 0.2rem solid var(--main-color);
-  box-shadow: .4rem .4rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
   border-radius: 0.6rem;
 }
 
