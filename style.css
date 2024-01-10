@@ -455,7 +455,7 @@ span {
   position: relative;
   padding: 1.5rem;
   border: 0.2rem solid var(--main-color);
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem  var(--main-color);
   border-radius: 0.6rem;
   margin-bottom: 2rem;
   overflow: hidden;
@@ -536,7 +536,7 @@ span {
 .skills-box .skills-content {
   position: relative;
   border: 0.2rem solid var(--main-color);
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);;
+  box-shadow: 0.4rem 0.4rem  var(--main-color);;
   border-radius: 0.6rem;
   padding: 0.5rem 1.5rem;
   z-index: 1;
@@ -772,7 +772,7 @@ p.post__body {
   color: var(--text-color);
   background: transparent;
   border: 0.2rem solid var(--main-color);
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem  var(--main-color);
   border-radius: 0.6rem;
 }
 
@@ -852,7 +852,7 @@ p.post__body {
 
 
 .footer-iconTop a:hover {
-  box-shadow: .4rem .4rem var(--main-color);
+  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 .footer-iconTop a::before {
