@@ -22,12 +22,11 @@
 /* ==================== Start Color Root ==================== */
 
 :root {
-
   --text-color: #000;
   --second-bg-color: #f2f2f2;
   --bg-color: #fff;
-  --main-color: #F53838;
-/* 
+  --main-color: #8aaae5;
+  /* 
   --bg-color: #081b29;
   --second-bg-color: #112e42;
   --text-color: #ededed;
@@ -70,11 +69,9 @@ body {
   background: var(--bg-color);
 }
 
-
-
 .logo {
   position: relative;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--text-color);
   font-weight: 600;
 }
@@ -84,13 +81,16 @@ body {
 }
 
 .navbar a {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: var(--text-color);
   font-weight: 500;
   margin-left: 3.5rem;
   transition: 0.3s;
 }
 
+.navbar a i {
+  display: none;
+}
 .navbar a:hover,
 .navbar a.active {
   color: var(--main-color);
@@ -119,7 +119,6 @@ section {
   padding: 0 9%;
 }
 
-
 .home-content {
   max-width: 60rem;
 }
@@ -146,12 +145,11 @@ section {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -33rem 0;
- 
 }
 
-.home.show-animate .home-content .text-animate h3{
-    animation: homeBgText 6s linear infinite;
-    animation-delay: 2s;
+.home.show-animate .home-content .text-animate h3 {
+  animation: homeBgText 6s linear infinite;
+  animation-delay: 2s;
 }
 
 .home-content .text-animate h3::before {
@@ -163,12 +161,11 @@ section {
   height: 100%;
   border-right: 2px solid var(--main-color);
   z-index: -1;
- 
 }
 
 .home.show-animate .home-content .text-animate h3::before {
-    animation: homeCursorText 6s linear infinite;
-    animation-delay: 2s;
+  animation: homeCursorText 6s linear infinite;
+  animation-delay: 2s;
 }
 
 .home-content p {
@@ -199,16 +196,13 @@ section {
   font-weight: 600;
   letter-spacing: 0.1rem;
   color: var(--bg-color);
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
   z-index: 1;
   overflow: hidden;
   transition: 0.45s;
-  
 }
 
 .btn-box .btn:hover {
   color: var(--main-color);
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
 }
 
 .btn-box .btn:nth-child(2) {
@@ -218,15 +212,11 @@ section {
 
 .btn-box .btn:nth-child(2):hover {
   color: var(--bg-color);
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
+  box-shadow: none;
 }
 
 .btn-box .btn:nth-child(1) {
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
-}
-
-.btn-box .btn:nth-child(1):hover {
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
+  box-shadow: none;
 }
 
 .btn-box .btn:nth-child(2)::before {
@@ -252,7 +242,7 @@ section {
 .home-sci {
   position: absolute;
   bottom: 4rem;
-  width: 170px;
+  width: 25rem;
   display: flex;
   justify-content: space-between;
 }
@@ -264,17 +254,14 @@ section {
   align-items: center;
   width: 40px;
   height: 40px;
-  background: transparent;
-  border: 0.2rem solid var(--main-color);
-  border-radius: 50%;
-  font-size: 20px;
+  border-radius: 28px;
+  background: #fffafa;
+  box-shadow: 5px 5px 12px #cacaca99, -5px -5px 12px #ffffff;
+  border-radius: 30px;
+  font-size: 3rem;
   color: var(--main-color);
   z-index: 1;
   overflow: hidden;
-}
-
-.home-sci a:hover {
-  color: var(--bg-color);
 }
 
 .home-sci a::before {
@@ -284,7 +271,7 @@ section {
   left: 0;
   width: 0;
   height: 100%;
-  background: var(--main-color);
+  /* background: var(--main-color); */
   z-index: -1;
   transition: 0.5s;
 }
@@ -293,24 +280,32 @@ section {
   width: 100%;
 }
 
-.home-image img {
-  width: 50rem;
-  margin-top: 10rem;
-  margin-left: 5rem;
-  border-radius: 50%;
-  
-  /* filter: brightness(0.3);
-  border-top: 1rem solid var(--bg-color);
-  border-bottom: 1rem solid var(--bg-color);
-  border-left: 1rem solid var(--main-color);
-  border-right: 1rem solid var(--main-color);
-  transition: 0.5s;*/
+.home-image {
+  -webkit-animation: profile__animate 8s ease-in-out 1s infinite;
+  animation: profile__animate 8s ease-in-out 1s infinite;
+  background: url(assets/img/profile2.JPG);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-left: 20rem;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px hsla(0, 0%, 100%, 0.3);
+  height: 400px;
+  justify-self: center;
+  order: 1;
+  width: 400px;
 }
 
-/*.home-image img:hover {
-  filter: none;
-}*/
-
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
 
 /* ==================== End Home Design ==================== */
 
@@ -339,8 +334,8 @@ span {
 
 .about-img {
   position: relative;
-  width: 25rem;
-  height: 25rem;
+  width: 35rem;
+  height: 35rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -390,11 +385,6 @@ span {
   width: 15rem;
   box-shadow: none;
 }
-
-.btn-box .btn:hover {
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
-}
-
 
 .btn-box.btns a::before {
   background: var(--second-bg-color);
@@ -455,7 +445,6 @@ span {
   position: relative;
   padding: 1.5rem;
   border: 0.2rem solid var(--main-color);
-  box-shadow: 0.4rem 0.4rem  var(--main-color);
   border-radius: 0.6rem;
   margin-bottom: 2rem;
   overflow: hidden;
@@ -536,7 +525,6 @@ span {
 .skills-box .skills-content {
   position: relative;
   border: 0.2rem solid var(--main-color);
-  box-shadow: 0.4rem 0.4rem  var(--main-color);;
   border-radius: 0.6rem;
   padding: 0.5rem 1.5rem;
   z-index: 1;
@@ -633,15 +621,13 @@ span {
 /* ==================== Start Blogs Design ==================== */
 
 .posts__container {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-bottom: 5rem;
 }
-
-
 
 .post {
   position: relative;
@@ -662,15 +648,10 @@ span {
 }
 
 .posts .btns {
-    display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: none;
-}
-
-
-.btn-box .btn:hover {
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: none;
 }
 
 .post__title a {
@@ -713,15 +694,15 @@ p.post__body {
   margin-top: 1.2rem;
 }
 
-.post__author-info h5{
+.post__author-info h5 {
   font-size: 1.6rem;
 }
 
-.post__author-info small{
+.post__author-info small {
   font-size: 1rem;
 }
 
-.post__author-avatar img{
+.post__author-avatar img {
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 0.8rem;
@@ -738,10 +719,10 @@ p.post__body {
   background: var(--second-bg-color);
 }
 
-.contact h2{
-    display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
+.contact h2 {
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .contact form {
@@ -772,7 +753,6 @@ p.post__body {
   color: var(--text-color);
   background: transparent;
   border: 0.2rem solid var(--main-color);
-  box-shadow: 0.4rem 0.4rem  var(--main-color);
   border-radius: 0.6rem;
 }
 
@@ -793,10 +773,10 @@ p.post__body {
   transition: 0.5s;
 }
 
-.contact form .input-box .input-field input:focus~.focus,
-.contact form .input-box .input-field input:valid~.focus,
-.contact form .textarea-field textarea:focus~.focus,
-.contact form .textarea-field textarea:valid~.focus {
+.contact form .input-box .input-field input:focus ~ .focus,
+.contact form .input-box .input-field input:valid ~ .focus,
+.contact form .textarea-field textarea:focus ~ .focus,
+.contact form .textarea-field textarea:valid ~ .focus {
   width: 100%;
 }
 
@@ -828,8 +808,8 @@ p.post__body {
 }
 
 .footer-text,
-.footer-iconTop{
-    position: relative;
+.footer-iconTop {
+  position: relative;
 }
 
 .footer-text p {
@@ -847,12 +827,7 @@ p.post__body {
   border-radius: 0.6rem;
   z-index: 1;
   overflow: hidden;
-  transition: .5s;
-}
-
-
-.footer-iconTop a:hover {
-  box-shadow: 0.4rem 0.4rem 2rem var(--main-color);
+  transition: 0.5s;
 }
 
 .footer-iconTop a::before {
@@ -903,10 +878,6 @@ p.post__body {
   .home {
     padding: 0 4%;
   }
-
-
-
-
 
   .home-image {
     display: none;
@@ -969,12 +940,26 @@ p.post__body {
   }
 
   .navbar a {
-    display: block;
-    font-size: 2rem;
-    margin: 3rem 0;
+    display: flex;
+    font-size: 2.5rem;
+    padding: 1.8rem;
+    margin: 4rem 0;
     transform: translateX(-20rem);
     transition: 0.25s ease;
     transition-delay: 0s;
+    height: 7rem;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 10px 10px 20px #e0dfdf, -10px -10px 20px #ffffff;
+}
+
+  .navbar a i {
+    display: block;
+  }
+
+  .navbar a i {
+    font-size: 3rem;
+    padding-right: 1rem;
   }
 
   .navbar.active a {
@@ -985,15 +970,12 @@ p.post__body {
   .home-image {
     display: none;
   }
-
-
 }
 
 @media (max-width: 520px) {
   html {
     font-size: 50%;
   }
-
 
   .home-content h1 {
     display: flex;
@@ -1014,7 +996,7 @@ p.post__body {
   .home-content h1 {
     font-size: 5.2rem;
   }
- 
+
   .education {
     padding: 10rem 4% 5rem 5%;
   }
@@ -1038,8 +1020,6 @@ p.post__body {
     justify-content: center;
   }
 
-  
-  
   .home-content {
     display: flex;
     align-items: center;
