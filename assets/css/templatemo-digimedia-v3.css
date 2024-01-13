@@ -1970,6 +1970,7 @@ responsive
   .header-area .main-nav .logo h4 {
     font-size: 20px;
   }
+  
   .main-banner .left-content {
     margin-right: 0px;
   }
@@ -2046,6 +2047,14 @@ responsive
     max-width: 30px;
     margin-left: 5px;
   }
+  .pre-header .info{
+    display: none;
+  }
+
+  .pre-header .social-media li{
+    width: 27px;
+    margin-right: 0px;
+  }
   .main-banner .info-stat {
     margin-bottom: 15px;
   }
@@ -2058,9 +2067,9 @@ responsive
     margin-right: 0px;
     margin-bottom: 15px;
   }
-  /*.service-item .right-content {
+  .service-item .right-content {
     display: inline-block;
-  } */
+  }
   .services .naccs .menu div .thumb {
     padding: 5px;
   }
@@ -2120,4 +2129,5 @@ responsive
   form#contact {
     padding: 30px;
   }
+  
 }
