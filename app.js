@@ -9114,7 +9114,7 @@
             })
         }
           , f = n.p + "assest/images/mali03.JPG"
-          , p = n.p + "static/media/Haidarali-CV.c444798430bc6fd6b8b9.pdf"
+          , p = n.p + "assest/Resume/mohammadali-CV.pdf"
           , h = function() {
             return (0,
             l.jsxs)("div", {
@@ -9257,7 +9257,7 @@
                                 children: [(0,
                                 l.jsx)("h3", {
                                     className: "skills__name",
-                                    children: "HTML"
+                                    children: "HTML5"
                                 }), (0,
                                 l.jsx)("span", {
                                     className: "skills__level",
@@ -9275,7 +9275,7 @@
                                 children: [(0,
                                 l.jsx)("h3", {
                                     className: "skills__name",
-                                    children: "CSS"
+                                    children: "CSS3"
                                 }), (0,
                                 l.jsx)("span", {
                                     className: "skills__level",
@@ -9656,8 +9656,8 @@
                             }), (0,
                             l.jsxs)("h3", {
                                 className: "services__title",
-                                children: ["NFT ", (0,
-                                l.jsx)("br", {}), " Solutions"]
+                                children: ["Graphic ", (0,
+                                l.jsx)("br", {}), " Designing"]
                             })]
                         }), (0,
                         l.jsxs)("span", {
@@ -9684,7 +9684,7 @@
                                 }), (0,
                                 l.jsx)("h3", {
                                     className: "services__modal-title",
-                                    children: "NFT Solution"
+                                    children: "Graphic Designing"
                                 }), (0,
                                 l.jsx)("p", {
                                     className: "services__modal-description",
@@ -9701,7 +9701,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "I develop the user interface."
+                                            children: "Branding and Identity Design."
                                         })]
                                     }), (0,
                                     l.jsxs)("li", {
@@ -9712,7 +9712,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "NFT smart contract development."
+                                            children: "Social Media Graphics."
                                         })]
                                     }), (0,
                                     l.jsxs)("li", {
@@ -9723,7 +9723,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "Deploying NFT smart contract and testing."
+                                            children: "Infographic Design."
                                         })]
                                     }), (0,
                                     l.jsxs)("li", {
@@ -9734,7 +9734,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "Minting website."
+                                            children: "Custom Illustrations for Publications."
                                         })]
                                     }), (0,
                                     l.jsxs)("li", {
@@ -9745,7 +9745,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "Multiple chains like eth, sol, polygon, bsc."
+                                            children: "Photo Editing and Retouching."
                                         })]
                                     })]
                                 })]
@@ -9807,7 +9807,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "I audit Interface architecture."
+                                            children: "User Interface (UI) Design."
                                         })]
                                     }), (0,
                                     l.jsxs)("li", {
@@ -9818,7 +9818,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "Create a Animation prototype."
+                                            children: "User Experience (UX) Design."
                                         })]
                                     }), (0,
                                     l.jsxs)("li", {
@@ -9829,7 +9829,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "Graphic interface."
+                                            children: "Visual Design System."
                                         })]
                                     }), (0,
                                     l.jsxs)("li", {
@@ -9840,7 +9840,7 @@
                                         }), (0,
                                         l.jsx)("p", {
                                             className: "services__modal-info",
-                                            children: "Sketching & Wireframes."
+                                            children: "User Persona Development."
                                         })]
                                     })]
                                 })]
@@ -10154,7 +10154,7 @@
         }, {
             id: 6,
             image: n.p + "assest/project/portfolio-02.jpg",
-            title: "knowledge Basic Game",
+            title: "knowledgeable Basic Game",
             link: "#"
         }]
           , _ = function(e) {
@@ -10235,12 +10235,12 @@
             id: 4,
             image: n.p + "assest/images/testimonial4.png",
             title: "Olivia Malkoviya",
-            description: "Haidar is professional and knowledgeable about blockchain development."
+            description: "Mohammad is professional and knowledgeable about FrontEnd development."
         }, {
             id: 5,
             image: n.p + "assest/images/testimonial5.png",
             title: "Craig O Niel",
-            description: "Haidar is incredible to work with! I will be working with him on all future blockchain projects. Flawless job."
+            description: "Mohammad is incredible to work with! I will be working with him on all future FrontEnd projects. Flawless job."
         }];
         function E(e, t) {
             if (null == e)
