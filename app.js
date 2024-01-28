@@ -10148,12 +10148,12 @@
             link: "#"
         }, {
             id: 5,
-            image: n.p + "assest/project/portfolio-01.jpg",
+            image: n.p + "assest/project/portfolio-05.jpg",
             title: "Miniting Website",
             link: "#"
         }, {
             id: 6,
-            image: n.p + "assest/project/portfolio-02.jpg",
+            image: n.p + "assest/project/portfolio-06.jpg",
             title: "knowledgeable Basic Game",
             link: "#"
         }]
