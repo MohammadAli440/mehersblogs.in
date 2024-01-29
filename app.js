@@ -10041,14 +10041,14 @@
                                     }), (0,
                                     l.jsx)("span", {
                                         className: "qualification__subtitle",
-                                        children: "Microsoft - Spain"
+                                        children: "Microsoft - Upwork"
                                     }), (0,
                                     l.jsxs)("div", {
                                         className: "qualification__calender",
                                         children: [(0,
                                         l.jsx)("i", {
                                             className: "uil uil-calendar-alt"
-                                        }), " 2021 - Present"]
+                                        }), " 2023 - Present"]
                                     })]
                                 }), (0,
                                 l.jsxs)("div", {
@@ -10082,14 +10082,14 @@
                                     }), (0,
                                     l.jsx)("span", {
                                         className: "qualification__subtitle",
-                                        children: "Apple Inc - Spain"
+                                        children: "Apple Inc - Upwork"
                                     }), (0,
                                     l.jsxs)("div", {
                                         className: "qualification__calender",
                                         children: [(0,
                                         l.jsx)("i", {
                                             className: "uil uil-calendar-alt"
-                                        }), " 2020 - 2021"]
+                                        }), " 2023 - Present"]
                                     })]
                                 })]
                             }), (0,
@@ -10104,14 +10104,14 @@
                                     }), (0,
                                     l.jsx)("span", {
                                         className: "qualification__subtitle",
-                                        children: "Figma - Spain"
+                                        children: "Figma - Upwork"
                                     }), (0,
                                     l.jsxs)("div", {
                                         className: "qualification__calender",
                                         children: [(0,
                                         l.jsx)("i", {
                                             className: "uil uil-calendar-alt"
-                                        }), " 2018 - 2020"]
+                                        }), " 2023 - Present"]
                                     })]
                                 }), (0,
                                 l.jsx)("div", {
